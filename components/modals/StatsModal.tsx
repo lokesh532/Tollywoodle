@@ -18,7 +18,7 @@ import { StatFooter } from '../stats/StatFooter'
 type Props = {
   isOpen: boolean
   handleClose: () => void
-  solution: string
+  solution: number
   guesses: string[]
   gameStats: GameStats
   isLatestGame: boolean

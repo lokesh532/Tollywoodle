@@ -4,7 +4,6 @@ import Image from 'next/image'
 const BASE_URL = 'http://localhost:3001/';
 
 type Props = {
-  solution: string,
   solutionIndex: number,
   currentImage: number
 }
@@ -12,7 +11,7 @@ type Props = {
 
 
 export const ScreenShot = ({
-  solution, solutionIndex, currentImage
+   solutionIndex, currentImage
 }: Props) => {
 
   const myLoader = ({ src, width, height }: any) => {

@@ -12,10 +12,11 @@ import {
 } from '../../utils/strings'
 import { shareStatus } from '../../utils/share'
 import { solutionGameDate, tomorrow } from '../../utils/movies'
+import { MOVIES } from '../../utils/movielist'
 
 type Props = {
     isLatestGame: boolean
-    solution: string
+    solution: number
     guesses: string[]
     isGameLost: boolean
     isDarkMode: boolean
@@ -56,7 +57,7 @@ export const StatFooter = ({ isLatestGame, solution, guesses, isGameLost, isDark
                     className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-center text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:text-base"
                     onClick={() => {
                         shareStatus(
-                            solution,
+                            MOVIES.find(movie => movie.id===solution)?.Title!,
                             guesses,
                             isGameLost,
                             isDarkMode,

@@ -49,6 +49,7 @@ import { Autocomplete } from "../autocomplete/Autocomplete";
 import { Guess } from "../guess/Guess";
 import { StatFooter } from "../stats/StatFooter";
 import Navbar from "../navbar/Navbar";
+import { MOVIES } from "../../utils/movielist";
 const Game: React.FC = () => {
   const [isLatestGame, setisLatestGame] = useState<boolean>(getIsLatestGame());
   const gameDate = getGameDate()
@@ -69,15 +70,13 @@ const Game: React.FC = () => {
     if (loaded?.solution !== solution) {
       return []
     }
-    const gameWasWon = loaded.guesses.map(guess => guess.toUpperCase()).includes(solution)
+    const solMovie=MOVIES.find(movie => movie.id===solution)?.Title!;
+    const gameWasWon = loaded.guesses.map(guess => guess.toUpperCase()).includes(solMovie.toUpperCase())
     if (gameWasWon) {
       setIsGameWon(true)
     }
     if (loaded.guesses.length + 1 === MAX_CHALLENGES && !gameWasWon) {
-      setIsGameLost(true)
-      // showErrorAlert(CORRECT_WORD_MESSAGE(solution), {
-      //   persist: true,
-      // })
+      setIsGameLost(true)     
     }
     return loaded.guesses
   })
@@ -108,7 +107,7 @@ const Game: React.FC = () => {
     if (isGameWon) {
       const winMessage =
         WIN_MESSAGES[Math.floor(Math.random() * WIN_MESSAGES.length)]
-      const delayMs = REVEAL_TIME_MS * solution.length
+      const delayMs = REVEAL_TIME_MS * 6
 
       showSuccessAlert(winMessage, {
         delayMs,
@@ -178,8 +177,7 @@ const Game: React.FC = () => {
       <div className="mx-auto flex w-full flex-col px-1 pt-2 pb-8 sm:px-6 md:max-w-2xl lg:px-8 short:pb-2 short:pt-2">
         <div className="flex grow flex-col justify-center pb-6 short:pb-2 gap-2">
           <div className='relative sm:h-64 mb-4'>
-            <ScreenShot
-              solution={solution} solutionIndex={solutionIndex + 1} currentImage={currentImage}
+            <ScreenShot solutionIndex={solutionIndex + 1} currentImage={currentImage}
             />
           </div>
           <div className="mb-1 flex justify-center">

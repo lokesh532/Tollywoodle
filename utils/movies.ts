@@ -28,7 +28,7 @@ export const periodInDays = 1
 
 
 export const isWinningMovie = (movie: string) => {
-  return solution === localeAwareUpperCase(movie)
+  return solution === MOVIES.find(unit => localeAwareUpperCase(unit.Title) === localeAwareUpperCase(movie))?.id;
 }
 
 // build a set of previously revealed letters - present and correct
@@ -115,8 +115,7 @@ export const getMovieOfDay = (index: number) => {
     throw new Error('Invalid index')
   }
  // console.log(index % (MOVIES.length));
-  return localeAwareUpperCase(MOVIES[index % MOVIES.length].Title)
-  //return localeAwareUpperCase('3 idiots')
+  return MOVIES[index % MOVIES.length].id
 }
 
 export const getUpdatedKeywords = (value: string) => {
