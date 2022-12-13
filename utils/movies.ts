@@ -15,7 +15,10 @@ import { KEYWORDS } from './movielist'
 import { getToday } from './dateutils'
 
 // 1 January 2022 Game Epoch
-export const firstGameDate = new Date(2022, 10)
+export let firstGameDate = new Date()
+firstGameDate.setDate(11)
+firstGameDate.setMonth(11);
+firstGameDate.setFullYear(2022)
 
 export const periodInDays = 1
 

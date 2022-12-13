@@ -1,7 +1,7 @@
 export const MOVIES = [
   {
-    "Title": "Dil Se",
-    "Release Date": "1998-08-21",
+    "Title": "Kushi",
+    "Release Date": "2001-04-27",
     "id": 1
   }, {
     "Title": "Race Gurram",
@@ -38,8 +38,8 @@ export const MOVIES = [
     "Release Date": "2013-05-19",
     "id": 8
   }, {
-    "Title": "Kushi",
-    "Release Date": "2001-04-27",
+    "Title": "Dil Se",
+    "Release Date": "1998-08-21",
     "id": 9
   },
   {
