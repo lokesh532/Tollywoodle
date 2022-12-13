@@ -16,7 +16,7 @@ import { getToday } from './dateutils'
 
 // 1 January 2022 Game Epoch
 export let firstGameDate = new Date()
-firstGameDate.setDate(9)
+firstGameDate.setDate(8)
 firstGameDate.setMonth(11);
 firstGameDate.setFullYear(2022)
 
