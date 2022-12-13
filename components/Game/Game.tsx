@@ -215,7 +215,7 @@ const Game: React.FC = () => {
                 {CORRECT_WORD_MESSAGE}
               </div>}
               {isGameLost && <div className="font-bold ">
-                {solution}
+                {MOVIES.find(movie => movie.id===solution)?.Title!}
               </div>}
               <div className="mb-1 flex justify-center">
                 <StatFooter isLatestGame={isLatestGame} solution={solution} guesses={guesses}
