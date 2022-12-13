@@ -4,13 +4,12 @@ export const MOVIES = [
     "Release Date": "2001-04-27",
     "id": 1
   }, {
-    "Title": "Race Gurram",
-    "Release Date": "2014-12-18",
-    "id": 2
-  },
-  {
     "Title": "Srimanthudu",
     "Release Date": "2015-08-07",
+    "id": 2
+  }, {
+    "Title": "Race Gurram",
+    "Release Date": "2014-12-18",
     "id": 3
   },
   {
