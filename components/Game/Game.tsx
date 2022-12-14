@@ -166,7 +166,7 @@ const Game: React.FC = () => {
         setIsDatePickerModalOpen={setIsDatePickerModalOpen}
         setIsSettingsModalOpen={setIsSettingsModalOpen}
       />
-
+      
       {!isLatestGame && <div className="flex items-center justify-center">
         <ClockIcon className="h-6 w-6 stroke-gray-600 dark:stroke-gray-300"></ClockIcon>
         <p className="text-base text-gray-600 dark:text-gray-300">

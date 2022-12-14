@@ -36,7 +36,7 @@ const Navbar = ({
           />
 
         </div>
-        <p className="text-xl font-bold dark:text-white">Tollywoodle</p>
+        <h1 className="text-xl font-bold dark:text-white">Tollywoodle</h1>
         <div className="right-icons flex">
           <ChartBarIcon
             className="mr-3 h-6 w-6 cursor-pointer dark:stroke-white"
