@@ -8,6 +8,10 @@ const nextConfig = {
     minimumCacheTTL: 240,
     path:''
   },
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+  },
 }
 
 module.exports = nextConfig
