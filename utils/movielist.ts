@@ -28,25 +28,25 @@ export const MOVIES = [
     "id": 6
   },
   {
-    "Title": "Swades: We, the People",
-    "Release Date": "2004-12-17",
+    "Title": "Rangasthalam",
+    "Release Date": "2018-03-30",
     "id": 7
   },
   {
-    "Title": "The Lunchbox",
+    "Title": "Jersey",
     "Release Date": "2013-05-19",
     "id": 8
   }, {
-    "Title": "Dil Se",
-    "Release Date": "1998-08-21",
+    "Title": "Arjun Reddy",
+    "Release Date": "2017-08-25",
     "id": 9
   },
   {
-    "Title": "Sholay",
-    "Release Date": "1975-08-15",
+    "Title": "Janatha Garage",
+    "Release Date": "2016-09-01",
     "id": 10
   }
 ]
 
 
-export const KEYWORDS = ["Srimanthudu", "Gangs of Wasseypur", "Rang De Basanti", "Mughal-E-Azam", "Sparsh", "Koshish", "Manam", "3 Idiots", "Sardar Udham", "Swades: We, the People", "Taare Zameen Par", "Pyaasa", "Shershaah", "Anand", "A Wednesday", "Shatranj Ke Khilari", "Guide", "Bhaag Milkha Bhaag", "Dangal", "Udaan", "Jaane Bhi Do Yaaro", "Black Friday", "Andhadhun", "Jai Bhim", "Do Bigha Zamin", "Zindagi Na Milegi Dobara", "Ek Ruka Hua Faisla", "Haider", "Shahid", "Paan Singh Tomar", "Dil Chahta Hai", "Special Chabbis", "Queen", "Drishyam", "Barfi", "Kushi", "Guru", "Chhoti Si Baat", "Chak De! India", "Sarfarosh", "Race Gurram", "Ek Doctor Ki Maut", "Kahaani", "Salaam Bombay!", "Black", "Awaara", "Omkara", "Arth", "Bajrangi Bhaijaan", "Dev.D", "Mother India", "Khuda Kay Liye", "Kaagaz Ke Phool", "Roja", "Jab We Met", "Baby", "Airlift", "Jo Jeeta Wohi Sikandar", "Mumbai Meri Jaan", "Manjhi: The Mountain Man", "Golmaal", "Kal Ho Naa Ho", "Rock On!!", "Bombay", "Parinda", "Saaransh", "Bajirao Mastani", "My Name Is Khan", "Satya", "Do Ankhen Barah Haath", "Manorama: Six Feet Under", "Chupke Chupke", "Mirchi", "The Legend of Bhagat Singh", "Dil Se", "Don", "Vicky Donor", "Mera Naam Joker", "Masoom", "Dilwale Dulhania Le Jayenge", "Pink", "Ankur", "Neerja", "Maqbool", "Garm Hava", "The Lunchbox", "Water", "Dear Zindagi", "Deewaar", "Johnny Gaddaar", "Veer-Zaara", "Udta Punjab", "Mahanati", "Pinjar: Beyond Boundaries...", "Chashme Buddoor", "Sholay", "Uri: The Surgical Strike", "Talvar", "Padman", "Madaari", "Andaz Apna Apna", "Mimi", "I Am Kalam", "Raazi", "Badla"]
+export const KEYWORDS = ["Srimanthudu", "Gangs of Wasseypur", "Rang De Basanti", "Mughal-E-Azam", "Sparsh", "Koshish", "Manam", "3 Idiots", "Sardar Udham", "Rangasthalam", "Taare Zameen Par", "Pyaasa", "Shershaah", "Anand", "A Wednesday", "Shatranj Ke Khilari", "Guide", "Bhaag Milkha Bhaag", "Dangal", "Udaan", "Jaane Bhi Do Yaaro", "Black Friday", "Andhadhun", "Jai Bhim", "Do Bigha Zamin", "Zindagi Na Milegi Dobara", "Ek Ruka Hua Faisla", "Haider", "Shahid", "Paan Singh Tomar", "Dil Chahta Hai", "Special Chabbis", "Queen", "Drishyam", "Barfi", "Kushi", "Guru", "Chhoti Si Baat", "Chak De! India", "Sarfarosh", "Race Gurram", "Ek Doctor Ki Maut", "Kahaani", "Salaam Bombay!", "Black", "Awaara", "Omkara", "Arth", "Bajrangi Bhaijaan", "Dev.D", "Mother India", "Khuda Kay Liye", "Kaagaz Ke Phool", "Roja", "Jab We Met", "Baby", "Airlift", "Jo Jeeta Wohi Sikandar", "Mumbai Meri Jaan", "Manjhi: The Mountain Man", "Golmaal", "Kal Ho Naa Ho", "Rock On!!", "Bombay", "Parinda", "Saaransh", "Bajirao Mastani", "My Name Is Khan", "Satya", "Do Ankhen Barah Haath", "Manorama: Six Feet Under", "Chupke Chupke", "Mirchi", "The Legend of Bhagat Singh", "Arjun Reddy", "Don", "Vicky Donor", "Mera Naam Joker", "Masoom", "Dilwale Dulhania Le Jayenge", "Pink", "Ankur", "Neerja", "Maqbool", "Garm Hava", "Jersey", "Water", "Dear Zindagi", "Deewaar", "Johnny Gaddaar", "Veer-Zaara", "Udta Punjab", "Mahanati", "Pinjar: Beyond Boundaries...", "Chashme Buddoor", "Janatha Garage", "Uri: The Surgical Strike", "Talvar", "Padman", "Madaari", "Andaz Apna Apna", "Mimi", "I Am Kalam", "Raazi", "Badla"]
