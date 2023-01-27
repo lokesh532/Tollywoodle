@@ -45,6 +45,11 @@ export const MOVIES = [
     "Title": "Janatha Garage",
     "Release Date": "2016-09-01",
     "id": 10
+  },
+  {
+    "Title": "Oopiri",
+    "Release Date": "2016-03-25",
+    "id": 11
   }
 ]
 
